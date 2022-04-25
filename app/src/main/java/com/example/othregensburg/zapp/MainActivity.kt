@@ -9,7 +9,7 @@ import kotlin.random.Random
 class MainActivity : AppCompatActivity() {
 
     private val randomValues =
-        List(50) { ('A' + Random.nextInt('Z' - 'A')).toString() + " " + it.toString() }
+        List(40) { ('A' + Random.nextInt('Z' - 'A')).toString() + " " + it.toString() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
