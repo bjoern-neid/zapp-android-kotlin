@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     // TODO (4) Create a new class for the adapter which extends from RecyclerView.Adapter<ListAdapter.ViewHolder>
 
     private val randomValues =
-        List(50) { ('A' + Random.nextInt('Z' - 'A')).toString() + " " + it.toString() }
+        List(50) { ('C' + Random.nextInt('Z' - 'A')).toString() + " " + it.toString() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
